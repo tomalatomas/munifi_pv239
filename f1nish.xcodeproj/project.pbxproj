@@ -14,7 +14,7 @@
 		A22E3F6D29B2920E00531D35 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E3F6C29B2920E00531D35 /* Persistence.swift */; };
 		A22E3F7029B2920E00531D35 /* f1nish.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A22E3F6E29B2920E00531D35 /* f1nish.xcdatamodeld */; };
 		A22E3F7D29B357C500531D35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E3F7C29B357C500531D35 /* ContentView.swift */; };
-		A22E3F7F29B37EBC00531D35 /* RaceCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E3F7E29B37EBC00531D35 /* RaceCard.swift */; };
+		A22E3F7F29B37EBC00531D35 /* RoundCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E3F7E29B37EBC00531D35 /* RoundCard.swift */; };
 		A22E3F8129B3A9BF00531D35 /* DriverCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E3F8029B3A9BF00531D35 /* DriverCard.swift */; };
 		A22E3F8329B3A9CD00531D35 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E3F8229B3A9CD00531D35 /* TabBar.swift */; };
 		A22E3F8529B3A9E200531D35 /* ConstructorCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E3F8429B3A9E200531D35 /* ConstructorCard.swift */; };
@@ -28,6 +28,11 @@
 		A22E3F9B29B3B96400531D35 /* RaceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E3F9A29B3B96400531D35 /* RaceDetailView.swift */; };
 		A22E3F9D29B3B9A000531D35 /* StandingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E3F9C29B3B9A000531D35 /* StandingDetailView.swift */; };
 		A245A38C29B4B8A600809A4A /* CardBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A245A38B29B4B8A600809A4A /* CardBanner.swift */; };
+		A2FEEAA929B612AB00A94D4D /* Round.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FEEAA829B612AB00A94D4D /* Round.swift */; };
+		A2FEEAAB29B612B400A94D4D /* Constructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FEEAAA29B612B400A94D4D /* Constructor.swift */; };
+		A2FEEAAD29B612BB00A94D4D /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FEEAAC29B612BB00A94D4D /* Driver.swift */; };
+		A2FEEAAF29B612CB00A94D4D /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FEEAAE29B612CB00A94D4D /* Event.swift */; };
+		A2FEEAB129B6130A00A94D4D /* EventResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FEEAB029B6130A00A94D4D /* EventResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +44,7 @@
 		A22E3F6C29B2920E00531D35 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		A22E3F6F29B2920E00531D35 /* f1nish.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = f1nish.xcdatamodel; sourceTree = "<group>"; };
 		A22E3F7C29B357C500531D35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A22E3F7E29B37EBC00531D35 /* RaceCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceCard.swift; sourceTree = "<group>"; };
+		A22E3F7E29B37EBC00531D35 /* RoundCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundCard.swift; sourceTree = "<group>"; };
 		A22E3F8029B3A9BF00531D35 /* DriverCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverCard.swift; sourceTree = "<group>"; };
 		A22E3F8229B3A9CD00531D35 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		A22E3F8429B3A9E200531D35 /* ConstructorCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstructorCard.swift; sourceTree = "<group>"; };
@@ -54,6 +59,11 @@
 		A22E3F9C29B3B9A000531D35 /* StandingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingDetailView.swift; sourceTree = "<group>"; };
 		A245A38B29B4B8A600809A4A /* CardBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBanner.swift; sourceTree = "<group>"; };
 		A2FEEA9A29B52A5100A94D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A2FEEAA829B612AB00A94D4D /* Round.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Round.swift; sourceTree = "<group>"; };
+		A2FEEAAA29B612B400A94D4D /* Constructor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constructor.swift; sourceTree = "<group>"; };
+		A2FEEAAC29B612BB00A94D4D /* Driver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
+		A2FEEAAE29B612CB00A94D4D /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		A2FEEAB029B6130A00A94D4D /* EventResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +137,11 @@
 		A22E3F7829B2BA8700531D35 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A2FEEAA829B612AB00A94D4D /* Round.swift */,
+				A2FEEAAA29B612B400A94D4D /* Constructor.swift */,
+				A2FEEAAC29B612BB00A94D4D /* Driver.swift */,
+				A2FEEAAE29B612CB00A94D4D /* Event.swift */,
+				A2FEEAB029B6130A00A94D4D /* EventResult.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -156,7 +171,7 @@
 			children = (
 				A22E3F8229B3A9CD00531D35 /* TabBar.swift */,
 				A22E3F8A29B3AA4700531D35 /* ResultsTab.swift */,
-				A22E3F7E29B37EBC00531D35 /* RaceCard.swift */,
+				A22E3F7E29B37EBC00531D35 /* RoundCard.swift */,
 				A22E3F8029B3A9BF00531D35 /* DriverCard.swift */,
 				A22E3F8429B3A9E200531D35 /* ConstructorCard.swift */,
 				A22E3F8629B3AA1B00531D35 /* EventsCard.swift */,
@@ -242,19 +257,24 @@
 				A22E3F9B29B3B96400531D35 /* RaceDetailView.swift in Sources */,
 				A22E3F7029B2920E00531D35 /* f1nish.xcdatamodeld in Sources */,
 				A22E3F7D29B357C500531D35 /* ContentView.swift in Sources */,
+				A2FEEAA929B612AB00A94D4D /* Round.swift in Sources */,
+				A2FEEAB129B6130A00A94D4D /* EventResult.swift in Sources */,
 				A22E3F6D29B2920E00531D35 /* Persistence.swift in Sources */,
 				A22E3F9929B3B1A800531D35 /* StandingsView.swift in Sources */,
 				A22E3F8F29B3AA8B00531D35 /* AchievementsRow.swift in Sources */,
+				A2FEEAAF29B612CB00A94D4D /* Event.swift in Sources */,
 				A22E3F9D29B3B9A000531D35 /* StandingDetailView.swift in Sources */,
 				A22E3F8929B3AA3600531D35 /* ResultsCard.swift in Sources */,
 				A245A38C29B4B8A600809A4A /* CardBanner.swift in Sources */,
+				A2FEEAAD29B612BB00A94D4D /* Driver.swift in Sources */,
+				A2FEEAAB29B612B400A94D4D /* Constructor.swift in Sources */,
 				A22E3F8B29B3AA4700531D35 /* ResultsTab.swift in Sources */,
 				A22E3F8529B3A9E200531D35 /* ConstructorCard.swift in Sources */,
 				A22E3F8329B3A9CD00531D35 /* TabBar.swift in Sources */,
 				A22E3F8129B3A9BF00531D35 /* DriverCard.swift in Sources */,
 				A22E3F9729B3B19800531D35 /* RacesView.swift in Sources */,
 				A22E3F6629B2920D00531D35 /* MainView.swift in Sources */,
-				A22E3F7F29B37EBC00531D35 /* RaceCard.swift in Sources */,
+				A22E3F7F29B37EBC00531D35 /* RoundCard.swift in Sources */,
 				A22E3F8729B3AA1B00531D35 /* EventsCard.swift in Sources */,
 				A22E3F6429B2920D00531D35 /* f1nishApp.swift in Sources */,
 			);

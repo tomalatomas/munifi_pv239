@@ -13,7 +13,6 @@ struct MainView: View {
     var body: some View {
         Text("Hallo")
     }
-
 }
 
 private let itemFormatter: DateFormatter = {
