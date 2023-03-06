@@ -27,6 +27,7 @@
 		A22E3F9929B3B1A800531D35 /* StandingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E3F9829B3B1A800531D35 /* StandingsView.swift */; };
 		A22E3F9B29B3B96400531D35 /* RaceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E3F9A29B3B96400531D35 /* RaceDetailView.swift */; };
 		A22E3F9D29B3B9A000531D35 /* StandingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E3F9C29B3B9A000531D35 /* StandingDetailView.swift */; };
+		A245A38C29B4B8A600809A4A /* CardBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A245A38B29B4B8A600809A4A /* CardBanner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,8 @@
 		A22E3F9829B3B1A800531D35 /* StandingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingsView.swift; sourceTree = "<group>"; };
 		A22E3F9A29B3B96400531D35 /* RaceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceDetailView.swift; sourceTree = "<group>"; };
 		A22E3F9C29B3B9A000531D35 /* StandingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingDetailView.swift; sourceTree = "<group>"; };
+		A245A38B29B4B8A600809A4A /* CardBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBanner.swift; sourceTree = "<group>"; };
+		A2FEEA9A29B52A5100A94D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 		A22E3F6229B2920D00531D35 /* f1nish */ = {
 			isa = PBXGroup;
 			children = (
+				A2FEEA9A29B52A5100A94D4D /* Info.plist */,
 				A22E3F7929B2BA9800531D35 /* NetworkService */,
 				A22E3F7829B2BA8700531D35 /* Model */,
 				A22E3F7729B2BA8000531D35 /* ViewModel */,
@@ -159,6 +163,7 @@
 				A22E3F8829B3AA3600531D35 /* ResultsCard.swift */,
 				A22E3F8C29B3AA7200531D35 /* DetailInfoCard.swift */,
 				A22E3F8E29B3AA8B00531D35 /* AchievementsRow.swift */,
+				A245A38B29B4B8A600809A4A /* CardBanner.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -242,6 +247,7 @@
 				A22E3F8F29B3AA8B00531D35 /* AchievementsRow.swift in Sources */,
 				A22E3F9D29B3B9A000531D35 /* StandingDetailView.swift in Sources */,
 				A22E3F8929B3AA3600531D35 /* ResultsCard.swift in Sources */,
+				A245A38C29B4B8A600809A4A /* CardBanner.swift in Sources */,
 				A22E3F8B29B3AA4700531D35 /* ResultsTab.swift in Sources */,
 				A22E3F8529B3A9E200531D35 /* ConstructorCard.swift in Sources */,
 				A22E3F8329B3A9CD00531D35 /* TabBar.swift in Sources */,
@@ -381,6 +387,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"f1nish/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = f1nish/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -409,6 +416,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"f1nish/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = f1nish/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
